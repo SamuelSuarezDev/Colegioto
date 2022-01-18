@@ -3,6 +3,7 @@
   margin: 0;
   list-style: none;
   text-decoration: none;
+/*   overflow: hidden; */
 }
 .container {
   width: 100%;
@@ -209,23 +210,24 @@ ul .modal a{
 #check{
   display: none;
 }                      
-@media screen and (max-width:880px) {
+@media screen and (max-width:1200px) {
   .container {
   width: 100%;
   height: 134%;
   display: flex;
   position: absolute;
   background-image: url("./Desktop\ -\ 1.jpg");
+  overflow: hidden;
 }
 .slider-frame img {
-  width: 50%;
+  width: 40%;
   height: 70%;
 }
 .slider-frame {
   position: absolute;
-  width: 1250px;
+  width: 1000px;
   height: auto;
-  margin: 110px 0 0 650px;
+  margin: 0 0 0 600px;
   overflow: hidden;
 }
 .checkbtn{
@@ -233,12 +235,11 @@ ul .modal a{
 }
  nav ul{
      position: absolute;
-  position: fixed;
   width: 100%;
   height: 100vh;
   background: blue;
 top: 80px;
-margin-left: -100%;
+margin-left: 200%;
 text-align: center;
 transition: all .5s;
 }
@@ -258,29 +259,30 @@ nav ul li a{
 .info {
   position: absolute;
   background-image: url("./Diseño\ sin\ título.jpg");
-  background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
+  background-size: cover;
+  width: 90%;
   height: 100%;
 }
 .info h1 {
   position: absolute;
-  margin: 100px;
+  margin: 70px 0 0 140px;
   font-size: 27px;
   font-family: "Mochiy Pop P One", sans-serif;
 }
 .info p {
-  margin: 150px 0 0 70px;
+    margin-left: 50px;
+    margin-top: 385px;
+    text-align: center;
+    width: 90%;
   position: absolute;
-  width: 50%;
-  font-size: 27px;
+  font-size: 22px;
   font-family: "Karla", sans-serif;
 }
 .info img {
   position: absolute;
   width: 250px;
-  margin-top: 200px;
-  margin-left: 450px;
+  margin: 120px 0 0 120px;
 }
  .co {
   position: absolute;
